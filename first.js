@@ -44,14 +44,21 @@ console.log("a = ", a, " &  b = ",b);
 console.log("a + b =",a+b);
 console.log("a - b =",a-b);
 console.log("a * b =",a*b);*/
-
+/*
 //Unary Operator
 let a = 5;
 let b = 2;
 
 a += 4; // a = a+4
-console.log("a = ", a);
+console.log("a = ", a);  
 
 console.log("a = ", a, " & b = ",b);
 console.log("a++ =" , a++);
-console.log("a = ",a)
+console.log("a = ",a)*/
+
+//logical Opertaor
+
+let a = 6;
+let b = 5;
+
+console.log("cond1 && cond2 = ",a<b || a==6);
