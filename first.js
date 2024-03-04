@@ -64,7 +64,7 @@ let b = 5;
 console.log("cond1 && cond2 = ",a<b || a==6);*/
 
 //Conditional Statements
- 
+ /*
  let mode = "dark";
  let color;
 
@@ -77,7 +77,7 @@ console.log("cond1 && cond2 = ",a<b || a==6);*/
  }
 
  console.log(color);
- 
+*/
 //let age = 16;
 // if(age>18){
 //     console.log("You can vote");
@@ -86,3 +86,30 @@ console.log("cond1 && cond2 = ",a<b || a==6);*/
 // if(age<18){
 //     console.log("you can not vote");
 // }
+
+//if else condition
+/*
+let mode = " light";
+let color;
+
+if(mode == "dark"){
+    color = "black";
+}else{
+    color = "white"
+}
+console.log(color);
+*/
+let mode = "dark";
+let color;
+
+if(mode === "dark"){
+    color = "black";
+}else if(mode === "blue"){
+    color = "blue";
+}else if ( mode === "pink"){
+    color = "pink";
+}else{
+    color = "white";
+}
+
+console.log(color);
