@@ -161,9 +161,15 @@ else{
 //     i++;
 // }
 
-let i = 1;
-do{
-    console.log("i=",i);
-    i++;
-}while ( i<=10);
+// let i = 1;
+// do{
+//     console.log("i=",i);
+//     i++;
+// }while ( i<=10);
 
+//Practice Qs1
+for( let num = 0 ; num <=100; num ++){
+    if(num%2 ===0){
+        console.log("num =", num);
+    }
+}
