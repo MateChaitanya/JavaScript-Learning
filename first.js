@@ -121,13 +121,18 @@ console.log(color);
 let result = age >=18 ? "adult " : "not adult";
 console.log(result);*/
 
-let num = prompt("enter a number:");
+/*let num = prompt("enter a number:");
 
 if(num % 3 === 0 ){
     console.log(num,"is a multiple of 3");
 }
 else{
     console.log(num,"is not a multiple of 3")
+}
+*/
+
+for(let i = 1; i<=5;i++){
+    console.log("Apna Collage")
 }
 
 
