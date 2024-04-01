@@ -131,8 +131,25 @@ else{
 }
 */
 
-for(let i = 1; i<=5;i++){
-    console.log("Apna Collage")
-}
+// for(let i = 1; i<=5;i++){
+//     console.log("Apna Collage")
+// }
 
+
+
+//Calculate sum of 1 to 5 
+
+let sum = 0;
+for(let i = 1; i <= 5; i++){
+    sum = sum + i;
+}
+console.log("sum = ",sum);
+console.log("loop has ended");
+
+//Print 1 to 5 
+
+for(let i = 1; i <=5; i++){
+    console.log("i = ", i);
+}
+console.log(i);
 
