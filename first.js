@@ -223,8 +223,26 @@ else{
 
 myfunction();*/
 
-function sum(x,y){
+/*function sum(x,y){
     console.log(x+y);
 }
 
-sum(3,4);
+sum(3,4); */
+
+//Sum Function
+
+function sum(a,b){
+    return a+b;
+
+}
+const arrowsum = (a,b)=>{
+    console.log(a+b);
+};
+
+//Multiplication 
+function mul(a,b){
+    return a*b;
+}
+const arrowmul =(a,b)=>{
+    console.log(a*b);
+};
