@@ -248,7 +248,7 @@ const arrowmul =(a,b)=>{
 };*/
 
 //Practice question 
-
+/*
 function countVowels(str){
     let count = 0;
     for(const char of str){
@@ -266,4 +266,37 @@ const countVow = (str)=> {
         }
     }
     return count;
-};
+};*/
+
+//ForEach Loop in Array
+
+/*let arr = [1,2,3,4,5];
+
+arr.forEach(function printVal(val){
+    console.log(val);
+});*/
+
+/*let arr = ["Pune","Delhi","Mumbai"];
+
+arr.forEach((val,idx,arr)=>{
+    console.log(val.toUpperCase(),idx,arr);
+});*/
+
+/*let nums = [ 67,53,89];
+
+let newArr = nums.map((val)=> {
+    return val * val; 
+});
+
+console.log(newArr);
+let calcSquare = (num) => {
+    console.log(num * num);
+};*/
+
+let arr = [1,2,3,4,5,6,7];
+
+let evenArr = arr.filter((val) => {
+    return val % 2 ===0;
+});
+
+console.log(evenArr);
