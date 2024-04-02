@@ -207,8 +207,24 @@ else{
 // let specialString = 'This is a template literal';
 // console.log(specialString);
 
-let str ="            Chaitaya";
-str= str.toUpperCase();
-console.log(str);
+// let str ="            Chaitaya";
+// str= str.toUpperCase();
+// console.log(str);
 
-console.log(str.trim());
+// console.log(str.trim());
+
+//-----------------------------------------------------------------------------------------
+//Function 
+
+/*function myfunction(){
+    console.log("Welcome to JavaScript Tutorial !");
+    console.log("We are learning JS :")
+}
+
+myfunction();*/
+
+function sum(x,y){
+    console.log(x+y);
+}
+
+sum(3,4);
