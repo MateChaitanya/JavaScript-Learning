@@ -231,7 +231,7 @@ sum(3,4); */
 
 //Sum Function
 
-function sum(a,b){
+/*function sum(a,b){
     return a+b;
 
 }
@@ -245,4 +245,25 @@ function mul(a,b){
 }
 const arrowmul =(a,b)=>{
     console.log(a*b);
+};*/
+
+//Practice question 
+
+function countVowels(str){
+    let count = 0;
+    for(const char of str){
+        if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+            count++;
+        }
+    }
+    return count; 
+}
+const countVow = (str)=> {
+    let count = 0;
+    for(const char of str){
+        if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+            count++;
+        }
+    }
+    return count;
 };
