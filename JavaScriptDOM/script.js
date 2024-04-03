@@ -25,7 +25,27 @@ console.dir(h2.innerText);
 
 h2.innerText = h2.innerText + " from Apna College Students"; //Concatenate */
 
-let divs = document.querySelectorAll(".box");
+/*let divs = document.querySelectorAll(".box");
 divs[0].innerText = "new unique value 1";
-divs[1].innerText = "new unique value 2";
+divs[1].innerText = "new unique value 2"; 
 divs[2].innerText = "new unique value 3";
+ */
+
+/*let div = document.querySelector("div");
+console.log(div);
+
+let id = div.getAttribute("id");
+console.log(id);
+
+let name = div.getAttribute("name");
+console.log(name);*/
+
+let newBtn = document.createElement("button");
+newBtn.innerText="click me! ";
+console.log(newBtn);
+
+let div = document.querySelector("div");
+//div.append(newBtn);//this is for end of div(Inside)
+//div.prepend(newBtn); // this is for top of div node(inside)
+
+div.after(newBtn);
