@@ -11,5 +11,16 @@ console.dir (heading);*/
 console.dir(heading);
 console.log(heading);*/
 
-let parahs = document.getElementsByTagName("p");
-console.dir(parahs);
+/*let parahs = document.getElementsByTagName("p");
+console.dir(parahs);*/
+
+/*let elements = document.querySelector("p");
+console.dir(elements);*/
+//------------------------------------------------------------------------------------
+
+
+let h2 = document.querySelector("h2");
+
+console.dir(h2.innerText);
+
+h2.innerText = h2.innerText + " from Apna College Students"
