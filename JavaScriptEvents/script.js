@@ -6,3 +6,8 @@
     a++;
     console.log(a);
  };
+
+ let div = document.querySelector("div");
+ div.onmouseover = () =>{
+    console.log("You are inside div");
+ };
