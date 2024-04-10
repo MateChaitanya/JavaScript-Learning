@@ -29,7 +29,7 @@ KaranArjun.__proto__ =employee;*/
 }
 let fortuner = new ToyotaCar();*/
 
-class Person{
+/*class Person{
     eat(){
         console.log("eat");
     }
@@ -45,4 +45,39 @@ class Engineer extends Person{
     }
 }
 
-let chaituObj = new Engineer();
+let chaituObj = new Engineer();*/
+
+/*class Person{
+    constructor(){
+        this.species = "Home Sapiens";
+    }
+    eat(){
+        console.log("eat");
+
+    }
+}
+class Engineer extends Person{
+    constructor(branch){
+        super(); //to invoke parent class constructor
+        this.branch = branch;
+    }
+    work(){
+        console.log("Solve Problems,build something");
+    }
+}
+let engobj = new Engineer("Chemical ENgineer" );*/
+
+let DATA = "Secret information";
+class user{
+    constructor(name, email){
+        this.name = name;
+        this.email = email;
+
+    }
+    viewData(){
+        console.log("data = ", DATA);
+    }
+}
+
+let student1 = new user("Ramu","ramu@gmail.com");
+let student2 = new user("Shamu","shamu@gamul.com");
