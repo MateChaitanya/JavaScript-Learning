@@ -29,12 +29,20 @@ KaranArjun.__proto__ =employee;*/
 }
 let fortuner = new ToyotaCar();*/
 
-
-class Parent{
-    hello(){
-        console.log("Hello");
+class Person{
+    eat(){
+        console.log("eat");
     }
 
+    sleep(){
+        console.log("sleep");
+    }
 }
-class Child extends Parent{}
- let obj = new Child();
+
+class Engineer extends Person{
+    work(){
+        console.log("Solve Problem,s build something");
+    }
+}
+
+let chaituObj = new Engineer();
